@@ -2,8 +2,8 @@
 
 A simple file-backed download cache for NodeJS and CMake:
 
-* NodeJS: https://github.com/jjYBdx4IL/dlcache-nodejs
-* CMake: https://github.com/jjYBdx4IL/dlcache-cmake
+* NodeJS: [dlcache-nodejs](//github.com/jjYBdx4IL/dlcache-nodejs)
+* CMake: [dlcache-cmake](//github.com/jjYBdx4IL/dlcache-cmake)
 
 ## Windows
 
