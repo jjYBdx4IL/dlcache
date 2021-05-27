@@ -1,6 +1,6 @@
 # dlcache
 
-A simple file-backed download cache for NodeJS and CMake:
+A simple file-backed download cache for NodeJS, CMake and Java:
 
 * NodeJS: [dlcache-nodejs](//github.com/jjYBdx4IL/dlcache-nodejs)
 * CMake: [dlcache-cmake](//github.com/jjYBdx4IL/dlcache-cmake)
