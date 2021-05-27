@@ -4,6 +4,7 @@ A simple file-backed download cache for NodeJS and CMake:
 
 * NodeJS: [dlcache-nodejs](//github.com/jjYBdx4IL/dlcache-nodejs)
 * CMake: [dlcache-cmake](//github.com/jjYBdx4IL/dlcache-cmake)
+* Java: https://github.com/jjYBdx4IL/misc/blob/master/io-utils/src/main/java/com/github/jjYBdx4IL/utils/io/DlCache.java
 
 ## Windows
 
