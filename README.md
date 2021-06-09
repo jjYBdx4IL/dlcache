@@ -35,4 +35,6 @@ Files only get stored under the final location name after a successful checksum 
 
 ## Room for improvement: proxies
 
-With the increasing enforcement of encrypted protocols, generic caching proxies become less and less viable. One way out of this is to let the client manage the caching itself. DlCache currently does this on a per-user-x-host level. Having looked at Sonatype Nexus, there is the possibility of simple uploads to the Nexus instance's raw host repository format in order to have intranet caching. That would be a useful extension (idea: use "dlcache_server" env variable similar to "http_proxy").
+With the increasing enforcement of encrypted protocols, generic caching proxies become less and less viable. One way out of this is to let the client manage the caching itself. DlCache currently does this on a per-user-x-host level. Having looked at Sonatype Nexus, there is the possibility of simple uploads to the Nexus instance's raw host repository format in order to provide intranet caching. That would be a useful extension (idea: use "dlcache_server" env variable similar to "http_proxy").
+
+    curl -v -u admin:pwd --upload-file debian-10.9.0-amd64-netinst.iso http://nas:8081/repository/dlcache/a/b/c/a.iso
