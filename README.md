@@ -33,4 +33,6 @@ For example:
 
 Files only get stored under the final location name after a successful checksum verification.
 
+## Room for improvement: proxies
 
+With the increasing enforcement of encrypted protocols, generic caching proxies become less and less viable. One way out of this is to let the client manage the caching itself. DlCache currently does this on a per-user-x-host level. Having looked at Sonatype Nexus, there is the possibility of simple uploads to the Nexus instance's raw host repository format in order to have intranet caching. That would be a useful extension (idea: use "dlcache_server" env variable similar to "http_proxy").
